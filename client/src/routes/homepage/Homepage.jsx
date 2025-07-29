@@ -9,7 +9,7 @@ const Homepage = () => {
     <div className="homepage">
       <img src="/orbital.png" alt="" className="orbital" />
       <div className="left">
-        <h1>LAMA AI</h1>
+        <h1>CHATTICA AI</h1>
         <h2>Supercharge your creativity and productivity</h2>
         <h3>
           Meet Chattica, Best Al assistant. Get help with writing, planning, brainstorming and more.
