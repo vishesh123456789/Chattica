@@ -1,0 +1,11 @@
+.signInPage{
+  height: 100vh;
+    width: 100vw;
+    overflow-y: scroll;
+    align-items: flex-start;
+    padding-top: clamp(2rem, 10vw, 5rem);
+    display: flex;
+    ;
+    justify-content: center;
+    
+}

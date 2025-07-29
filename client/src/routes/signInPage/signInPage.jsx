@@ -1,9 +1,16 @@
-import React from 'react'
+import { SignIn } from "@clerk/clerk-react";
+import "./signInPage.css";
 
-const signInPage = () => {
+const SignInPage = () => {
   return (
-    <div>signInPage</div>
-  )
-}
+    <div className="signInPage">
+      <SignIn
+        path="/sign-in"
+        signUpUrl="/sign-up"
+        forceRedirectUrl="/dashboard"
+      />
+    </div>
+  );
+};
 
-export default signInPage
+export default SignInPage;
